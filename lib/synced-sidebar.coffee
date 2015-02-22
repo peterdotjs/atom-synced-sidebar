@@ -1,6 +1,6 @@
 {CompositeDisposable} = require 'atom'
 
-module.exports = SynchedSidebar =
+module.exports = SyncedSidebar =
   subscriptions: null
 
   activate: (state) ->
@@ -27,4 +27,4 @@ module.exports = SynchedSidebar =
       selectedListItem = treeView.querySelector('.list-tree .selected')
 
       if selectedListItem
-        selectedListItem.scrollIntoView()
+        selectedListItem.scrollIntoViewIfNeeded()
