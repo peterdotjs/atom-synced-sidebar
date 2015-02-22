@@ -10,6 +10,8 @@ apm install synced-sidebar
 
 Or Settings/Preferences ➔ Packages ➔ Search for `synced-sidebar`
 
+[![Atom Sync Sidebar Package](https://github.com/peterdotjs/atom-synced-sidebar/blob/master/synced-sidebar.gif)](https://www.youtube.com/watch?v=fwYiFJ-9A6Y)
+
 ## License
 
 [MIT](https://github.com/peterdotjs/atom-synced-sidebar/blob/master/LICENSE.md) © [Peter Shin](https://github.com/peterdotjs)
