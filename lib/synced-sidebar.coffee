@@ -21,4 +21,6 @@ module.exports = SynchedSidebar =
 
     #check if panel is open
     if treeView
-      atom.commands.dispatch(atom.views.getView(atom.workspace), 'tree-view:reveal-active-file')
+      treeView.querySelector('.list-tree .selected').scrollIntoView()
+      #breaks in certain cases
+      #atom.commands.dispatch(atom.views.getView(atom.workspace), 'tree-view:reveal-active-file')
