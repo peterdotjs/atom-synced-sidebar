@@ -2,7 +2,7 @@
   "name": "synced-sidebar",
   "main": "./lib/synced-sidebar",
   "version": "0.1.7",
-  "description": "Simple Sidebar Sync: Syncs tree view sidebar to be visible with current active tab - sidebar entry automatically scrolls into view",
+  "description": "Simple Sidebar Sync: active tab & sidebar are synced - sidebar entry automatically scrolls into view (Atom equivalent of Sublime SynchedSideBar plugin)",
   "repository": "https://github.com/peterdotjs/atom-synced-sidebar.git",
   "license": "MIT",
   "engines": {
@@ -12,7 +12,14 @@
     "name": "Peter J. Shin",
     "url": "https://github.com/peterdotjs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "fs-plus": "^2.3.0",
+    "minimatch": "~0.3.0",
+    "pathwatcher": "^3.0.0",
+    "temp": "~0.8.1",
+    "underscore-plus": "^1.0.0"
+  },
   "keywords": [
     "atom",
     "sync",

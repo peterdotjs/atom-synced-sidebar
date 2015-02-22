@@ -15,6 +15,7 @@ module.exports = SynchedSidebar =
 
   deactivate: ->
     @subscriptions.dispose()
+    @subscriptions = null
 
   revealActiveFile: ->
     treeView = atom.views.getView(atom.workspace).querySelector('.tree-view')

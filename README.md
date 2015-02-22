@@ -1,16 +1,29 @@
-# [synced-sidebar](https://github.com/peterdotjs/atom-synced-sidebar.git)
+# Synced-Sidebar Atom Package
 
-### Simple Sidebar Sync: Syncs tree view sidebar to be visible with current active tab - sidebar entry automatically scrolls into view
+Simple Sidebar Sync: active tab & sidebar are synced - sidebar entry automatically scrolls into view (Atom equivalent of Sublime SynchedSideBar plugin)
 
 Atom Package: https://atom.io/packages/synced-sidebar
+
+[Demo](https://www.youtube.com/watch?v=fwYiFJ-9A6Y)
+
+[![Sync Sidebar Atom Package Animation](https://raw.githubusercontent.com/peterdotjs/atom-synced-sidebar/master/synced-sidebar-min.gif)](https://www.youtube.com/watch?v=fwYiFJ-9A6Y)
+
+## Installation
 
 ```bash
 apm install synced-sidebar
 ```
-
 Or Settings/Preferences ➔ Packages ➔ Search for `synced-sidebar`
 
-[![Atom Sync Sidebar Package](https://raw.githubusercontent.com/peterdotjs/atom-synced-sidebar/master/synced-sidebar-min.gif)](https://www.youtube.com/watch?v=fwYiFJ-9A6Y)
+## Use
+
+By default the sidebar (tree view) is not in sync with the active tab. With synced-sidebar installed the tab is revealed in the sidebar anytime a tab is active. If the active file in the sidebar is not currently in view (below or above the current viewport), the sidebar will automatically scroll the active file into view.
+
+If the sidebar (tree view) is collapsed, synced-sidebar doesn't do anything. The sidebar remains collapsed as is.
+
+## Configuration
+
+Currently there aren't configurations since there's only one thing the package does. You can either have the package enabled or disabled. Let me know you think there's a use case for configs.
 
 ## License
 
