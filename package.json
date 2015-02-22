@@ -1,0 +1,23 @@
+{
+  "name": "synced-sidebar",
+  "main": "./lib/synced-sidebar",
+  "version": "0.0.0",
+  "description": "Simple Sidebar Sync: Syncs tree view sidebar to be visible with current active tab - sidebar entry automatically scrolls into view",
+  "repository": "https://github.com/peterdotjs/atom-synced-sidebar.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "author": {
+    "name": "Peter J. Shin",
+    "url": "https://github.com/peterdotjs"
+  },
+  "dependencies": {},
+  "keywords": [
+    "atom",
+    "sync",
+    "tree-view",
+    "sidebar",
+    "SyncedSidebar"
+  ]
+}
