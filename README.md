@@ -23,7 +23,7 @@ If the sidebar (tree view) is collapsed, synced-sidebar doesn't do anything. The
 
 ## Configuration
 
-Currently there aren't configurations since there's only one thing the package does. You can either have the package enabled or disabled. Let me know you think there's a use case for configs.
+Currently there aren't configurations since there's only one thing the package does. You can either have the package enabled or disabled. Let me know if you think there's a use case for configs.
 
 ## License
 
