@@ -19,7 +19,7 @@ Or Settings/Preferences ➔ Packages ➔ Search for `synced-sidebar`
 
 By default the sidebar (tree view) is not in sync with the active tab. With synced-sidebar installed the tab is revealed in the sidebar anytime a tab is active. If the active file in the sidebar is not currently in view (below or above the current viewport), the sidebar will automatically scroll the active file into view.
 
-If the sidebar (tree view) is collapsed, synced-sidebar doesn't do anything. The sidebar remains collapsed as is.
+If the sidebar is collapsed, synced-sidebar doesn't do anything. The sidebar remains collapsed as is.
 
 ## Configuration
 
