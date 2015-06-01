@@ -14,10 +14,10 @@ module.exports = SyncedSidebar =
     @subscriptions.add atom.workspace.onDidChangeActivePaneItem => @revealActiveFile()
 
     atom.commands.add 'atom-workspace', 'pane:show-previous-item': ->
-      atom.workspaceView.focus()
+      atom.views.getView(atom.workspace).focus()
 
     atom.commands.add 'atom-workspace', 'pane:show-next-item': ->
-      atom.workspaceView.focus()
+      atom.views.getView(atom.workspace).focus()
 
   deactivate: ->
     @subscriptions.dispose()
