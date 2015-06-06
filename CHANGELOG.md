@@ -1,4 +1,4 @@
-## 0.3.0
+## 0.4.0
 - Fixing atom.workspaceView deprecation
 
 ## 0.2.3
