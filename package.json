@@ -1,7 +1,7 @@
 {
   "name": "synced-sidebar",
   "main": "./lib/synced-sidebar",
-  "version": "0.4.1",
+  "version": "0.4.0",
   "description": "Based on Sublime Text SyncedSideBar plugin. Active tab & sidebar are synced - sidebar entry automatically scrolls into view.",
   "repository": "https://github.com/peterdotjs/atom-synced-sidebar.git",
   "license": "MIT",
