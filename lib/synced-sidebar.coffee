@@ -13,10 +13,10 @@ module.exports = SyncedSidebar =
     # Register command that toggles this view
     @subscriptions.add atom.workspace.onDidChangeActivePaneItem => @revealActiveFile()
 
-    atom.commands.add 'atom-workspace', 'pane:show-previous-item': ->
+    atom.commands.add 'body', 'pane:show-previous-item': ->
       atom.views.getView(atom.workspace).focus()
 
-    atom.commands.add 'atom-workspace', 'pane:show-next-item': ->
+    atom.commands.add 'body', 'pane:show-next-item': ->
       atom.views.getView(atom.workspace).focus()
 
   deactivate: ->
