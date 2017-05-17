@@ -19,6 +19,12 @@ module.exports = SyncedSidebar =
     atom.commands.add 'body', 'pane:show-next-item': ->
       atom.views.getView(atom.workspace).focus()
 
+    atom.commands.add 'body', 'pane:show-previous-recently-used-item': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-next-recently-used-item': ->
+      atom.views.getView(atom.workspace).focus()
+
   deactivate: ->
     @subscriptions.dispose()
     @subscriptions = null
