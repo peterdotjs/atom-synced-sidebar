@@ -1,3 +1,5 @@
+# [DEPRECATED] DO NOT USE - WILL BE REMOVED FROM APM ref: https://github.com/peterdotjs/atom-synced-sidebar/issues/33 
+
 # Synced-Sidebar Atom Package [![Build Status](https://travis-ci.org/peterdotjs/atom-synced-sidebar.svg?branch=master)](https://travis-ci.org/peterdotjs/atom-synced-sidebar)
 
 Based on Sublime Text [SyncedSideBar](https://github.com/sobstel/SyncedSideBar) plugin. Active tab & sidebar are synced - sidebar entry automatically scrolls into view.
