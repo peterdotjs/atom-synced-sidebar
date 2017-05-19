@@ -19,6 +19,33 @@ module.exports = SyncedSidebar =
     atom.commands.add 'body', 'pane:show-next-item': ->
       atom.views.getView(atom.workspace).focus()
 
+    atom.commands.add 'body', 'pane:show-item-1': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-2': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-3': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-4': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-5': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-6': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-7': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-8': ->
+      atom.views.getView(atom.workspace).focus()
+
+    atom.commands.add 'body', 'pane:show-item-9': ->
+      atom.views.getView(atom.workspace).focus()
+
   deactivate: ->
     @subscriptions.dispose()
     @subscriptions = null
